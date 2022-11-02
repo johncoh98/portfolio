@@ -18,10 +18,10 @@ const Projects = () => {
                             BlueTube
                         </span>
                         <div>
-                            <a href="/">
+                            <a target="_blank" rel="noreferrer" href="https://bluetube-umber.vercel.app/">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg '>Demo</button>
                             </a>
-                            <a href="/">
+                            <a target="_blank" rel="noreferrer" href="https://github.com/johncoh98/youtube_clone">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
                             
@@ -35,10 +35,10 @@ const Projects = () => {
                             Restaurant
                         </span>
                         <div>
-                            <a href="/">
+                            <a target="_blank" rel="noreferrer" href="https://resto-liart.vercel.app/">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href="/">
+                            <a target="_blank" rel="noreferrer"  href="https://github.com/johncoh98/resto">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
                             
@@ -52,10 +52,10 @@ const Projects = () => {
                             BuyTech
                         </span>
                         <div>
-                            <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                            <a target="_blank" rel="noreferrer" href="https://buytech-virid.vercel.app/">
+                                <button  className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href="/">
+                            <a target="_blank" rel="noreferrer" href="https://github.com/johncoh98/buytech">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
                             
