@@ -23,7 +23,7 @@ const About = () => {
   return (
     <div name='about' className='w-full h-screen bg-[#0a192f] text-gray-300 '>
         <div className='flex flex-col justify-center items-center w-full h-full'>
-            <div className='max-w-[1000px] w-full px-4 gap-8'>
+            <div className='max-w-[1000px] w-full px-4 gap-8 italic '>
                 <div className='xs:text-left pb-8 pl-4'>
                     <p className='text-4xl font-serif text-gray-300 border-b-4 border-pink-600 inline'>About</p>
                 </div>
@@ -42,7 +42,7 @@ const About = () => {
                     <p>I'm interested by computers since i'm a kid and always dreamed about working as a developer. I'm also interested by video games and mobile apps.  My native language is french but also have hebrew, english and spanish as mastered languages. I love to learn new technologies </p>
                 </div>
                 <br />
-                <div className='xs:text-left text-2xl font-bold reveal mb-8 '>
+                <div className='xs:text-left text-2xl font-bold reveal md:mb-2 mb-40 '>
                     <p>Qualities :  Serious, Hardworker, Adaptive, Creative, Learn fast</p>
                 </div>
             </div>

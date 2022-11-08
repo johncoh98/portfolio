@@ -29,13 +29,13 @@ const Navbar = () => {
         </ul>
         <div className='flex fixed flex-col top-[75%] left-0 z-10'>
             <ul>
-                <li className=' w-40 h-[60px] flex justify-between relative md:right-[50%] xs:right-[60%] items-center  mr-[10px] md:hover:ml-[150px] hover:ml-[500px] duration-300 bg-blue-500  '>
+                <li className=' w-40 h-[60px] flex justify-between relative md:right-[50%] xs:right-[60%] items-center  mr-[10px] md:hover:ml-[150px] hover:ml-[90px] duration-300 bg-blue-500  '>
                     <a target="_blank" rel="noreferrer" className='flex justify-between items-center w-full text-gray-300'
                         href="https://www.linkedin.com/in/john-cohen-3233b9248">
                         Linkedin <FaLinkedin size={30}/>
                     </a>
                 </li>
-                <li className=' w-40 h-[60px] flex justify-between relative md:right-[50%] xs:right-[60%] items-center  mr-[10px] md:hover:ml-[150px] hover:ml-[500px] duration-300 bg-gray-500'>
+                <li className=' w-40 h-[60px] flex justify-between relative md:right-[50%] xs:right-[60%] items-center  mr-[10px] md:hover:ml-[150px] xs:hover:ml-[90px]  duration-300 bg-gray-500'>
     
                     <a target="_blank" rel="noreferrer" className='flex justify-between items-center w-full text-gray-300'
                         href="https://github.com/johncoh98">
@@ -43,7 +43,7 @@ const Navbar = () => {
                     </a>
                 
                 </li>
-                <li className=' w-40 h-[60px] flex justify-between relative md:right-[50%] xs:right-[60%] items-center  mr-[10px] md:hover:ml-[150px] hover:ml-[500px] duration-300 bg-red-400  '>
+                <li className=' w-40 h-[60px] flex justify-between relative md:right-[50%] xs:right-[60%] items-center  mr-[10px] md:hover:ml-[150px] hover:ml-[90px] duration-300 bg-red-400  '>
                     <a  className='flex justify-between items-center w-full text-gray-300'
                         href="mailto:john.coh98@gmail.com">
                         Mail <FaMailBulk size={30}/>
