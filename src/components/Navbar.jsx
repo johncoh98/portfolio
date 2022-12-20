@@ -9,7 +9,7 @@ const Navbar = () => {
     const handleClick = () => setnav(!nav);
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300 z-10'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300 z-10 shadow-md shadow-[#040c16]'>
             <ul className='hidden md:flex'>
                 <li className='hover:text-pink-600'><Link to='home' smooth={true} duration={500}>Home </Link></li>
                 <li className='hover:text-pink-600'><Link to='about' smooth={true} duration={500}>About </Link></li>
